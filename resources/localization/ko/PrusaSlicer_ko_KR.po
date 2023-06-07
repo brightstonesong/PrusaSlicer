@@ -9,8 +9,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-26 13:11+0200\n"
 "PO-Revision-Date: 2020-02-28 09:34+0900\n"
-"Last-Translator: lee hak-min <hangmini12@naver.com>\n"
-"Language-Team: ulsanether\n"
+"Last-Translator: Song hyeong seok (iq070314@gmail.com)\n"
+"Language-Team: team waldo\n"
 "Language: ko_KR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: src/slic3r/GUI/AboutDialog.cpp:46 src/slic3r/GUI/AboutDialog.cpp:304
 msgid "Portions copyright"
-msgstr "다른 저작권"
+msgstr "부분 참고 프로그램"
 
 #: src/slic3r/GUI/AboutDialog.cpp:143 src/slic3r/GUI/AboutDialog.cpp:269
 msgid "Copyright"
@@ -34,8 +34,8 @@ msgid ""
 "License agreements of all following programs (libraries) are part of "
 "application license agreement"
 msgstr ""
-"다음의 모든 프로그램 (라이브러리)의 라이센스 계약은 응용 프로그램 라이센스 계"
-"약의 일부입니다"
+"위 프로그램들과 라이브러리들의 라이센스 계약이 프로그램의 라이센스 계약에 "
+"포함되어 있습니다."
 
 #: src/slic3r/GUI/AboutDialog.cpp:213
 #, c-format, boost-format
@@ -50,33 +50,32 @@ msgstr "버전"
 #. TRN AboutDialog: "Slic3r %1% GNU Affero General Public License"
 #: src/slic3r/GUI/AboutDialog.cpp:271 src/slic3r/GUI/GUI_App.cpp:288
 msgid "is licensed under the"
-msgstr "라이선스는"
+msgstr "프로그램은 위 저작권 지침을 따릅니다."
 
 #: src/slic3r/GUI/AboutDialog.cpp:272 src/slic3r/GUI/GUI_App.cpp:288
 msgid "GNU Affero General Public License, version 3"
-msgstr "GNU Affero 일반 공중 사용 허가서, 버전 3"
+msgstr "GNU Affero 일반 라이센스, 버전 3"
 
 #: src/slic3r/GUI/AboutDialog.cpp:273
 msgid ""
 "PrusaSlicer is based on Slic3r by Alessandro Ranellucci and the RepRap "
 "community."
 msgstr ""
-"프루사슬라이서는 알레산드로 라넬루치와 RepRap 커뮤니티 Slic3r를 기반으로합니"
-"다."
-
+"프루사슬라이서는 알레산드로 라넬루치와 RepRap 커뮤니티가 만든 Slic3r 프로그램"
+"을 가반으로 제작되었습니다"
 #: src/slic3r/GUI/AboutDialog.cpp:274
 msgid ""
 "Contributions by Henrik Brix Andersen, Nicolas Dandrimont, Mark Hindess, "
 "Petr Ledvina, Joseph Lenox, Y. Sapir, Mike Sheldrake, Vojtech Bubnik and "
 "numerous others."
 msgstr ""
-"Contributions by Henrik Brix Andersen, Nicolas Dandrimont, Mark Hindess, "
+"주요 기여자 명단: Henrik Brix Andersen, Nicolas Dandrimont, Mark Hindess, "
 "Petr Ledvina, Joseph Lenox, Y. Sapir, Mike Sheldrake, Vojtech Bubnik and "
-"numerous others. 한국어 번역 울산에테르, 밤송이직박구리,brightstone song"
+"numerous others. 한국어 번역 울산에테르, 밤송이직박구리, brightstone song"
 
 #: src/slic3r/GUI/AboutDialog.cpp:309
 msgid "Copy Version Info"
-msgstr ""
+msgstr "버전 정보 복사"
 
 #: src/slic3r/GUI/BackgroundSlicingProcess.cpp:79
 #, c-format, boost-format
@@ -85,9 +84,9 @@ msgid ""
 "If you are sure you have enough RAM on your system, this may also be a bug "
 "and we would be glad if you reported it."
 msgstr ""
-"%s에서 오류가 발생했습니다. 메모리 부족으로 인해 발생했을 수 있습니다. 시스템"
-"에 충분한 RAM이 있다고 확신하는 경우 버그가 될 수 있으며 보고해 주길 바랍니"
-"다."
+"%s에서 오류가 발생했습니다. 메모리 부족으로 인해 발생한 것 같습니다. 시스템"
+"에 충분한 램 용량이 있을 시 버그일 확률이 높으니 보고해 주시면 감사하겠습니다."
+
 
 #: src/slic3r/GUI/BackgroundSlicingProcess.cpp:84
 #, boost-format
@@ -105,7 +104,7 @@ msgstr ""
 #: src/slic3r/GUI/BackgroundSlicingProcess.cpp:162
 #: src/slic3r/GUI/BackgroundSlicingProcess.cpp:188
 msgid "Slicing complete"
-msgstr "슬라이스 완료"
+msgstr "슬라이싱 완료"
 
 #: src/slic3r/GUI/BackgroundSlicingProcess.cpp:183
 #, boost-format
@@ -122,7 +121,7 @@ msgstr "잘못된 명령"
 
 #: src/slic3r/GUI/BackgroundSlicingProcess.cpp:283
 msgid "Divide by zero"
-msgstr "0"
+msgstr "0나누기 오류"
 
 #: src/slic3r/GUI/BackgroundSlicingProcess.cpp:285
 msgid "Overflow"
@@ -157,6 +156,8 @@ msgid ""
 "card is write locked?\n"
 "Error message: %1%"
 msgstr ""
+"임시 지코드 파일 복사가 실패하였습니다. 저장장치가 읽기 전용인지 롹인 부탁드립니다."
+"Error message: %1%"
 
 #: src/slic3r/GUI/BackgroundSlicingProcess.cpp:691
 #, boost-format
@@ -165,6 +166,9 @@ msgid ""
 "problem with target device, please try exporting again or using different "
 "device. The corrupted output G-code is at %1%.tmp."
 msgstr ""
+"임시 지코드 파일 복사가 실패하였습니다. 저장장치에 문제가 생긴 것 같습니다."
+"다른 저장장치를 사용하시는걸 추천드립니다. 깨진 지코드는 %1%.tmp. 에 있습니다."
+
 
 #: src/slic3r/GUI/BackgroundSlicingProcess.cpp:694
 #, boost-format
@@ -196,7 +200,7 @@ msgstr "%1%로 G코드 파일이 저장되었습니다."
 #, boost-format
 msgid "Scheduling upload to `%1%`. See Window -> Print Host Upload Queue"
 msgstr ""
-"`%1%`. 로 업로드를 예약 합니다. 창-> 인쇄 호스트 업로드 대기열을 참조 하십시"
+"`%1%`. 로 업로드를 예약 합니다. 윈도우 -> 인쇄 호스트 업로드 대기열을 참조 하십시"
 "오"
 
 #: src/slic3r/GUI/BedShapeDialog.cpp:31
@@ -414,39 +418,39 @@ msgstr ""
 
 #: src/slic3r/GUI/ButtonsDescription.cpp:21
 msgid "Palette 1 (default)"
-msgstr ""
+msgstr "팔레트 1(기본)"
 
 #: src/slic3r/GUI/ButtonsDescription.cpp:22
 msgid "Palette 2"
-msgstr ""
+msgstr "팔레트 2"
 
 #: src/slic3r/GUI/ButtonsDescription.cpp:23
 msgid "Palette 3"
-msgstr ""
+msgstr "팔레트 3"
 
 #: src/slic3r/GUI/ButtonsDescription.cpp:24
 msgid "Palette 4"
-msgstr ""
+msgstr "팔레트 4"
 
 #: src/slic3r/GUI/ButtonsDescription.cpp:25
 msgid "Palette 5"
-msgstr ""
+msgstr "팔레트 5"
 
 #: src/slic3r/GUI/ButtonsDescription.cpp:26
 msgid "Palette 6"
-msgstr ""
+msgstr "팔레트 6"
 
 #: src/slic3r/GUI/ButtonsDescription.cpp:27
 msgid "Palette 7"
-msgstr ""
+msgstr "팔레트 7"
 
 #: src/slic3r/GUI/ButtonsDescription.cpp:28
 msgid "Palette 8"
-msgstr ""
+msgstr "팔레트 8"
 
 #: src/slic3r/GUI/ButtonsDescription.cpp:112
 msgid "Revert color to default"
-msgstr ""
+msgstr "기본으로 되돌리기"
 
 #: src/slic3r/GUI/ButtonsDescription.cpp:127
 msgid "Value is the same as the system value"
@@ -559,9 +563,9 @@ msgid ""
 "support_material_extruder and support_material_interface_extruder need to be "
 "set to 0)."
 msgstr ""
-"와이프 타워는 현재 공구 교체를 트리거하지 않고 현재의 압출기로 인쇄 하는 경우"
-"에만 비가용성 서포트를 지원 합니다. (support_material_extruder과 "
-"support_material_interface_extruder 모두 0으로 설정 해야 합니다.)"
+"와이프 타워는 툴체인저를 사용하지 않을 때만 비수용성 서포트를 지원 합니다."
+"(서포트 생성 익스트루더, 서포트 인터페이스 익스트루더를 0으로 설정) "
+
 
 #: src/slic3r/GUI/ConfigManipulation.cpp:142
 msgid "Shall I adjust those settings in order to enable the Wipe Tower?"
@@ -586,11 +590,11 @@ msgstr "서포트 생성기"
 #: src/slic3r/GUI/ConfigManipulation.cpp:192
 #, boost-format
 msgid "The %1% infill pattern is not supposed to work at 100%% density."
-msgstr "%1% 패턴은 100%% 밀도로 작동하도록 되어 있지 않습니다."
+msgstr "%1% 패턴은 100%의 밀도로 채울 수 없습니다."
 
 #: src/slic3r/GUI/ConfigManipulation.cpp:194
 msgid "Shall I switch to rectilinear fill pattern?"
-msgstr "직선 패턴으로 전환하시겠습니까?"
+msgstr "렉틸라이너 패턴으로 바꾸시겠습니까?"
 
 #: src/slic3r/GUI/ConfigManipulation.cpp:195
 #: src/slic3r/GUI/GUI_Factories.cpp:55 src/slic3r/GUI/GUI_Factories.cpp:128
@@ -607,11 +611,11 @@ msgstr "인필"
 
 #: src/slic3r/GUI/ConfigManipulation.cpp:348
 msgid "Head penetration should not be greater than the head width."
-msgstr "헤드 접촉길이는 헤드의 지름보다 클 수 없습니다."
+msgstr "헤드 접촉 깊이는 헤드의 지름보다 클 수 없습니다."
 
 #: src/slic3r/GUI/ConfigManipulation.cpp:350
 msgid "Invalid Head penetration"
-msgstr "헤드 관통 불가"
+msgstr "헤드 접촉 불가"
 
 #: src/slic3r/GUI/ConfigManipulation.cpp:361
 msgid "Pinhead diameter should be smaller than the pillar diameter."
