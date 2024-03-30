@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-20 15:47+0100\n"
-"PO-Revision-Date: 2020-02-28 09:34+0900\n"
-"Last-Translator: lee hak-min <hangmini12@naver.com>\n"
-"Language-Team: ulsanether\n"
+"PO-Revision-Date: 2024-03-30 09:34+0900\n"
+"Last-Translator: brightstonesong\n"
+"Language-Team: brightstonesong\n"
 "Language: ko_KR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,19 +29,19 @@ msgstr "알 수 없음"
 
 #: src/libslic3r/ExtrusionRole.cpp:42 src/libslic3r/ExtrusionRole.cpp:63
 msgid "Perimeter"
-msgstr ""
+msgstr "외벽"
 
 #: src/libslic3r/ExtrusionRole.cpp:43 src/libslic3r/ExtrusionRole.cpp:65
 msgid "External perimeter"
-msgstr ""
+msgstr "최외곽 외벽"
 
 #: src/libslic3r/ExtrusionRole.cpp:44 src/libslic3r/ExtrusionRole.cpp:67
 msgid "Overhang perimeter"
-msgstr ""
+msgstr "오버행 외벽"
 
 #: src/libslic3r/ExtrusionRole.cpp:45 src/libslic3r/ExtrusionRole.cpp:69
 msgid "Internal infill"
-msgstr ""
+msgstr "내부 인필"
 
 #: src/libslic3r/ExtrusionRole.cpp:46 src/libslic3r/ExtrusionRole.cpp:71
 #: src/libslic3r/PrintConfig.cpp:1557 src/libslic3r/PrintConfig.cpp:2607
@@ -53,7 +53,7 @@ msgstr "솔리드 인필"
 #: src/libslic3r/PrintConfig.cpp:1566 src/libslic3r/PrintConfig.cpp:3196
 #: src/libslic3r/PrintConfig.cpp:3209
 msgid "Top solid infill"
-msgstr "가장 윗부분 채움"
+msgstr "상부 인필"
 
 #: src/libslic3r/ExtrusionRole.cpp:48 src/libslic3r/ExtrusionRole.cpp:75
 #: src/libslic3r/PrintConfig.cpp:1752 src/libslic3r/PrintConfig.cpp:1758
@@ -61,20 +61,20 @@ msgstr "가장 윗부분 채움"
 #: src/libslic3r/PrintConfig.cpp:1788 src/libslic3r/PrintConfig.cpp:1790
 #: src/slic3r/GUI/GUI_Factories.cpp:134 src/slic3r/GUI/Tab.cpp:1507
 msgid "Ironing"
-msgstr ""
+msgstr "다림질"
 
 #: src/libslic3r/ExtrusionRole.cpp:49 src/libslic3r/ExtrusionRole.cpp:77
 msgid "Bridge infill"
-msgstr ""
+msgstr "브릿징 인필"
 
 #: src/libslic3r/ExtrusionRole.cpp:50 src/libslic3r/ExtrusionRole.cpp:79
 #: src/libslic3r/PrintConfig.cpp:1478
 msgid "Gap fill"
-msgstr "공백 채움"
+msgstr "틈새 채움"
 
 #: src/libslic3r/ExtrusionRole.cpp:51 src/libslic3r/ExtrusionRole.cpp:81
 msgid "Skirt/Brim"
-msgstr ""
+msgstr "스커트/브림"
 
 #: src/libslic3r/ExtrusionRole.cpp:52 src/libslic3r/ExtrusionRole.cpp:83
 #: src/libslic3r/PrintConfig.cpp:820 src/libslic3r/PrintConfig.cpp:2273
@@ -104,7 +104,7 @@ msgstr "서포트 재료(Support material)"
 #: src/libslic3r/ExtrusionRole.cpp:53 src/libslic3r/ExtrusionRole.cpp:85
 #: src/libslic3r/PrintConfig.cpp:2956
 msgid "Support material interface"
-msgstr "서포트 접점"
+msgstr "서포트/출력물 접부"
 
 #: src/libslic3r/ExtrusionRole.cpp:54 src/libslic3r/ExtrusionRole.cpp:87
 #: src/libslic3r/PrintConfig.cpp:1575 src/slic3r/GUI/Tab.cpp:1649
@@ -134,6 +134,7 @@ msgid ""
 "\n"
 "\"%1%\""
 msgstr ""
+"이 3MF 파일에 정상적인 형상이 없습니다.\n"
 
 #: src/libslic3r/Format/3mf.cpp:2086
 #, boost-format
@@ -14036,7 +14037,7 @@ msgstr "&수정"
 
 #: src/slic3r/GUI/MainFrame.cpp:1574
 msgid "&Window"
-msgstr "&윈도우"
+msgstr "&탭"
 
 #: src/slic3r/GUI/MainFrame.cpp:1575 src/slic3r/GUI/MainFrame.cpp:1680
 msgid "&View"
@@ -14048,7 +14049,7 @@ msgstr "&도움말"
 
 #: src/slic3r/GUI/MainFrame.cpp:1633
 msgid "&Open G-code"
-msgstr ""
+msgstr "G코드 열기"
 
 #: src/slic3r/GUI/MainFrame.cpp:1656
 msgid "Open &PrusaSlicer"
@@ -14084,11 +14085,11 @@ msgstr "파일이 복구되었습니다."
 
 #: src/slic3r/GUI/MainFrame.cpp:1753
 msgid "Save configuration as:"
-msgstr "구성을 저장 :"
+msgstr "구성을 :로 저장"
 
 #: src/slic3r/GUI/MainFrame.cpp:1770
 msgid "Loading of a configuration file"
-msgstr ""
+msgstr "설정 파일 "
 
 #: src/slic3r/GUI/MainFrame.cpp:1772 src/slic3r/GUI/MainFrame.cpp:1853
 msgid "Select configuration to load:"
@@ -16020,7 +16021,7 @@ msgstr "외부 둘레"
 
 #: src/slic3r/GUI/PresetHints.cpp:176
 msgid "perimeters"
-msgstr "둘레"
+msgstr "외벽 수"
 
 #: src/slic3r/GUI/PresetHints.cpp:179
 msgid "infill"
@@ -16635,7 +16636,7 @@ msgstr "기호 프로파일 이름"
 
 #: src/slic3r/GUI/Tab.cpp:1439 src/slic3r/GUI/Tab.cpp:5644
 msgid "Layers and perimeters"
-msgstr "레이어 및 둘레"
+msgstr "레이어 및 외벽 설정 "
 
 #: src/slic3r/GUI/Tab.cpp:1445
 msgid "Vertical shells"
